@@ -17,4 +17,25 @@ body {
 .container {
     width: 80%;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card1 {
+    width: 40%;
+}
+
+.card1 > h1 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.card1 > p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.card2 {
+    width: 50%;
 }
