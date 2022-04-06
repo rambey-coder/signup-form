@@ -29,6 +29,9 @@ body {
 .card1 > h1 {
     color: #fff;
     font-weight: 700;
+    line-height: 1;
+    font-size: 1.8em;
+    margin-bottom: 19px;
 }
 
 .card1 > p {
@@ -37,5 +40,85 @@ body {
 }
 
 .card2 {
-    width: 50%;
+    width: 55%;
+}
+
+.top-btn {
+    background: hsl(248, 32%, 49%);
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 80%;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    box-shadow: 0 3px 2px #3030303a;
+    margin-bottom: 11px;
+}
+
+span {
+    font-weight: 300;
+    font-size: 10px;
+}
+
+.form-container {
+    background: #fff;
+    width: 80%;
+    padding: 20px 15px;
+}
+
+input {
+    width: 100%;
+    margin: 14px 0;
+    padding: 10px;
+    border: 1px solid hsla(249, 10%, 26%, 0.24);
+    border-radius: 4px;
+    outline: 0;font-size: 12px;
+    font-weight: 500;
+
+}
+
+input:focus {
+    border: 1px solid hsl(248, 32%, 49%);
+    transition: all 0.4s ease;
+}
+
+::placeholder {
+    font-size: 12px;
+    color: hsla(249, 10%, 26%, 0.726);
+}
+
+.error {
+    display: none;
+}
+
+.submit {
+    background: hsl(154, 59%, 51%);
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    margin-top: 10px;
+    box-shadow: 0 3px 2px hsla(154, 79%, 33%, 0.856);
+}
+
+div > div > p {
+    font-size: 11px;
+    margin-top: 15px;
+    text-align: center;
+    color: hsl(240, 0%, 58%);
+    font-weight: 600;
+}
+
+div > div > p > a {
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
+    text-decoration: none;
 }
