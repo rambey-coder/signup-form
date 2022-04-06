@@ -67,6 +67,7 @@ span {
     background: #fff;
     width: 80%;
     padding: 20px 15px;
+    position: relative;
 }
 
 input {
@@ -90,8 +91,76 @@ input:focus {
     color: hsla(249, 10%, 26%, 0.726);
 }
 
-.error {
-    display: none;
+form > p:nth-child(3) {
+    opacity: 0;
+    transition: 0.4s ease;
+    position: absolute;
+    font-size: 10px;
+    top: 78px;
+    color: hsl(0, 100%, 74%);
+}
+
+form > p:nth-child(6) {
+    opacity: 0;
+    transition: 0.4s ease;
+    position: absolute;
+    font-size: 10px;
+    top: 149px;
+    color: hsl(0, 100%, 74%);
+}
+
+form > p:nth-child(9) {
+    opacity: 0;
+    transition: 0.4s ease;
+    position: absolute;
+    font-size: 10px;
+    top: 218px;
+    color: hsl(0, 100%, 74%);
+}
+
+form > p:nth-child(12) {
+    opacity: 0;
+    transition: 0.4s ease;
+    position: absolute;
+    font-size: 10px;
+    top: 282px;
+    color: hsl(0, 100%, 74%);
+}
+
+.error-icon:nth-child(2) {
+    opacity: 0;
+    transition: 0.4s ease;
+    width: 15px;
+    position: absolute;
+    right: 25px;
+    top: 45px;
+}
+
+.error-icon:nth-child(5) {
+    opacity: 0;
+    transition: 0.4s ease;
+    width: 15px;
+    position: absolute;
+    right: 25px;
+    top: 115px;
+}
+
+.error-icon:nth-child(8) {
+    opacity: 0;
+    transition: 0.4s ease;
+    width: 15px;
+    position: absolute;
+    right: 25px;
+    top: 183px;
+}
+
+.error-icon:nth-child(11) {
+    opacity: 0;
+    transition: 0.4s ease;
+    width: 15px;
+    position: absolute;
+    right: 25px;
+    top: 250px;
 }
 
 .submit {
@@ -107,6 +176,11 @@ input:focus {
     font-weight: 400;
     margin-top: 10px;
     box-shadow: 0 3px 2px hsla(154, 79%, 33%, 0.856);
+}
+
+.submit:hover {
+    background: hsl(154, 86%, 53%);
+    transition: all .3s ease-in-out;
 }
 
 div > div > p {
